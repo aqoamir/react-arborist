@@ -82,7 +82,7 @@ const PreviewNode = memo(function PreviewNode<T>(props: {
       preview
       node={node}
       style={{
-        paddingLeft: node.level * tree.indent,
+        paddingRight: node.level * tree.indent,
         opacity: 0.2,
         background: "transparent",
       }}

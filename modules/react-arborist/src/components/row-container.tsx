@@ -46,7 +46,7 @@ export const RowContainer = React.memo(function RowContainer<T>({
   );
 
   const indent = tree.indent * node.level;
-  const nodeStyle = useMemo(() => ({ paddingLeft: indent }), [indent]);
+  const nodeStyle = useMemo(() => ({ paddingRight: indent }), [indent]);
   const rowStyle = useMemo(
     () => ({
       ...style,

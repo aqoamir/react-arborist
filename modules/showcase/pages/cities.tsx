@@ -169,7 +169,7 @@ export default function Cities() {
 
 function Node({ node, style, dragHandle }: NodeRendererProps<Data>) {
   const Icon = node.isInternal ? BsMapFill : BsGeoFill;
-  const indentSize = Number.parseFloat(`${style.paddingLeft || 0}`);
+  const indentSize = Number.parseFloat(`${style.paddingRight || 0}`);
 
   return (
     <div
