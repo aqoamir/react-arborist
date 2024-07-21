@@ -22,10 +22,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/brimdata/react-arborist.git"
+    "url": "https://github.com/aqoamir/react-arborist.git"
   },
-  "homepage": "https://react-arborist.netlify.app",
-  "bugs": "https://github.com/brimdata/react-arborist/issues",
+  "homepage": "https://github.com/aqoamir/react-arborist#readme",
+  "bugs": "https://github.com/aqoamir/react-arborist/issues",
   "keywords": [
     "react",
     "arborist",
