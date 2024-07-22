@@ -11,7 +11,7 @@ export function DefaultNode<T>(props: NodeRendererProps<T>) {
           props.node.toggle();
         }}
       >
-        {props.node.isLeaf ? "🌳" : props.node.isOpen ? "🗁" : "🗀"}
+        {props.node.isLeaf ? "📁" : props.node.isOpen ? "📂" : "📁"}
       </span>{" "}
       {props.node.isEditing ? <Edit {...props} /> : <Show {...props} />}
     </div>
